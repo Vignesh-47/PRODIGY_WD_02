@@ -1,0 +1,45 @@
+.whole{
+    background-color: black;
+    color: aliceblue;
+}
+
+.start,.reset,.pause,.lap{
+background-color:cadetblue;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .stopwatch {
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: chartreuse
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
